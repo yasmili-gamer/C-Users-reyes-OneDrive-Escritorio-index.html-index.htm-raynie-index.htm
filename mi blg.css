@@ -1,0 +1,291 @@
+
+.lot {
+  background-image: url(Fondo\ de\ pantalla\ vision\ board\ inspirador\ fotográfico\ moderno\ blanco.png);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-position: left top;
+}
+.parafo{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 100px;
+    color: #f7f3f3;
+}
+ .logo{
+    background-position: right;
+    font-size: small;
+    padding: 25px;
+    height: 25px;
+ }
+.btn{
+    background-color: rgba(185, 11, 49, 0);
+    padding: 24px 150px;
+    font-family:  Tahoma;
+   font-size: 50px;
+}
+.ntd{
+    font-size: 50px;
+    background-color: rgba(97, 23, 23, 0);
+    border-radius: 8px;
+    box-shadow: 4px;
+    
+}
+.content{
+    display: flex;
+    font-size: 50px;
+}
+  
+.imagen{
+width: 50px;
+height: 250px;
+left: 0;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #f5fafc; /* Fondo beige claro */
+    }
+    
+    /* Contenedor de las imágenes del carrusel */
+    .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    width: 300%; /* Tres imágenes en total, cada una ocupa 100% del contenedor */
+    }
+    
+    /* Estilos de las imágenes del carrusel */
+    .carousel-images img {
+    width: 33.33%; /* Cada imagen ocupa el 33.33% del ancho total */
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    }
+    
+    /* Botones de navegación */
+    .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    }
+    
+    /* Botón izquierdo */
+    .carousel-button.prev {
+    left: 10px;
+    }
+    
+    /* Botón derecho */
+    .carousel-button.next {
+    right: 10px;
+    }
+.casa{
+    color: #053103;
+    font-size: 55px;
+   font-family:  'Lucida Sans Regular', ;
+}
+
+.letras{
+    color: #0e0101;
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+}
+.diseño{
+font-size: 25px;
+}
+.poli{
+   font-size: 25px; 
+   color: #101011;
+   font-family: 'Gill Sans';
+   padding: 10px 20px;
+background-color: bisque;
+}
+.barra-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-busqueda {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Bordes redondeados en la izquierda */
+    width: 300px; /* Ancho de la barra de búsqueda */
+  }
+  
+  .btn-buscar {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 0 5px 5px 0; /* Bordes redondeados en la derecha */
+    cursor: pointer;
+  }
+  
+  .btn-buscar:hover {
+    background-color: #45a049; /* Efecto al pasar el ratón */
+  }
+  .contenedor {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.imagen {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.texto {
+    font-size: 25px; /* Tamaño del texto */
+    color: #0c0101; /* Color del texto */
+}
+
+
+
+.text {
+  width: 60%;
+}
+
+  .rata{
+     font-size: 25px;
+      color: #101011;
+      font-family: 'Segoe UI';
+  }
+.mi {
+  background-image: url(d4e9d01465a7f1d29788cbcb8938f677.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track-info h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.track-info p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.music-player {
+  margin-bottom: 30px;
+}
+
+.Perfect {
+  background-color: #ff4768;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.controls button:hover {
+  background-color: #e63946;
+}
+
+.playlist {
+  text-align: left;
+}
+
+.playlist h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #a2a5a4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: #0a0a0a;
+}
+footer {
+  background-color: #f5b9b9;
+  color: rgb(20, 1, 1);
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.pri{
+  background-image: url(Blue\ and\ White\ Minimalist\ Watercolor\ Phone\ Wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.naranja {
+  /* Formulario */
+body {
+  font-family: Arial, ;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ffb6c1;
+  color: white; /* Fix the color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff80a1; /* Slightly darker shade for hover effect */
+}
+
+background-image: url(d4e9d01465a7f1d29788cbcb8938f677.jpg) ;
+background-repeat: no-repeat;
+ background-size: cover;
+}
